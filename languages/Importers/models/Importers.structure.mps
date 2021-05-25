@@ -8,7 +8,7 @@
   <imports>
     <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
     <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" />
-    <import index="tp25" ref="r:00000000-0000-4000-0000-011c89590301(jetbrains.mps.lang.smodel.structure)" />
+    <import index="1oap" ref="r:03d44d4c-3d65-461c-9085-0f48e9569e59(jetbrains.mps.lang.resources.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="dvox" ref="r:9dfd3567-3b1f-4edb-85a0-3981ca2bfd8c(jetbrains.mps.lang.modelapi.structure)" implicit="true" />
   </imports>
@@ -87,6 +87,12 @@
       <property role="20kJfa" value="additionalDependencies" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
       <ref role="20lvS9" node="1tf3Elaf_yF" resolve="ImporterDependency" />
+    </node>
+    <node concept="1TJgyj" id="1tf3ElaXyTc" role="1TKVEi">
+      <property role="IQ2ns" value="1679577289122524748" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="icon" />
+      <ref role="20lvS9" to="1oap:2p1v3tOa9VI" resolve="Icon" />
     </node>
     <node concept="1TJgyj" id="7hUw6Fb4psH" role="1TKVEi">
       <property role="IQ2ns" value="8393162051720156973" />

@@ -3,7 +3,6 @@
   <persistence version="9" />
   <languages>
     <use id="1d7609cb-4d98-44f8-9e3d-a7762f8b25d5" name="BinaryGen" version="0" />
-    <use id="daafa647-f1f7-4b0b-b096-69cd7c8408c0" name="jetbrains.mps.baseLanguage.regexp" version="0" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>

@@ -9,7 +9,6 @@
     <import index="guwi" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.io(JDK/)" />
     <import index="ze1i" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.smodel.runtime(MPS.Core/)" />
     <import index="lui2" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.module(MPS.OpenAPI/)" />
-    <import index="z1c3" ref="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61/java:jetbrains.mps.project(MPS.Platform/)" />
     <import index="mhbf" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.model(MPS.OpenAPI/)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
   </imports>
@@ -127,6 +126,15 @@
         <node concept="3uibUv" id="1tf3Elaiynp" role="A3Ik2">
           <ref role="3uigEE" to="mhbf:~SModelId" resolve="SModelId" />
         </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="1tf3ElaY00$" role="jymVt">
+      <property role="1EzhhJ" value="true" />
+      <property role="TrG5h" value="icon" />
+      <node concept="3clFbS" id="1tf3ElaY00B" role="3clF47" />
+      <node concept="3Tm1VV" id="1tf3ElaXZYS" role="1B3o_S" />
+      <node concept="3uibUv" id="1tf3ElaY00p" role="3clF45">
+        <ref role="3uigEE" to="ze1i:~IconResource" resolve="IconResource" />
       </node>
     </node>
     <node concept="3Tm1VV" id="7hUw6Fb5glf" role="1B3o_S" />

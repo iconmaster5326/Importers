@@ -146,6 +146,15 @@
           <property role="VOm3f" value="true" />
         </node>
       </node>
+      <node concept="3F0ifn" id="1tf3ElaXyTJ" role="3EZMnx">
+        <property role="3F0ifm" value="icon" />
+      </node>
+      <node concept="3F1sOY" id="1tf3ElaXyUF" role="3EZMnx">
+        <ref role="1NtTu8" to="t1es:1tf3ElaXyTc" resolve="icon" />
+        <node concept="ljvvj" id="1tf3ElaXyVa" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
       <node concept="3F0ifn" id="1tf3Elaf_zf" role="3EZMnx">
         <property role="3F0ifm" value="additional dependencies" />
         <node concept="ljvvj" id="1tf3Elaf_$m" role="3F10Kt">

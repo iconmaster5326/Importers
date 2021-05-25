@@ -16,6 +16,19 @@
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
+    <language id="982eb8df-2c96-4bd7-9963-11712ea622e5" name="jetbrains.mps.lang.resources">
+      <concept id="2756621024541681849" name="jetbrains.mps.lang.resources.structure.Text" flags="ng" index="1irPie">
+        <property id="2756621024541681854" name="text" index="1irPi9" />
+        <child id="1860120738943552534" name="color" index="3PKjny" />
+      </concept>
+      <concept id="2756621024541674821" name="jetbrains.mps.lang.resources.structure.TextIcon" flags="ng" index="1irR5M">
+        <property id="1358878980655415353" name="iconId" index="2$rrk2" />
+        <child id="2756621024541675110" name="layers" index="1irR9h" />
+      </concept>
+      <concept id="1860120738943552477" name="jetbrains.mps.lang.resources.structure.ColorLiteral" flags="ng" index="3PKj8D">
+        <property id="1860120738943552481" name="val" index="3PKj8l" />
+      </concept>
+    </language>
     <language id="b34c9c50-5930-4745-8ae6-afd3e6cc302f" name="Importers">
       <concept id="8393162051720155032" name="Importers.structure.FnParamFile" flags="ng" index="2ZqKZM" />
       <concept id="8393162051720139930" name="Importers.structure.Importer" flags="ng" index="2ZqXjK">
@@ -25,6 +38,7 @@
         <child id="8393162051720140412" name="matches" index="2ZqXom" />
         <child id="8393162051720140418" name="import" index="2ZqXrC" />
         <child id="1679577289110476960" name="additionalDependencies" index="1tslo5" />
+        <child id="1679577289122524748" name="icon" index="1tIi3D" />
       </concept>
       <concept id="8393162051720139933" name="Importers.structure.ImporterCondFn" flags="ig" index="2ZqXjR" />
       <concept id="8393162051720140414" name="Importers.structure.ImporterBodySingleFn" flags="ig" index="2ZqXok" />
@@ -375,6 +389,15 @@
       <node concept="1dCxOk" id="1tf3Elahi1Q" role="1tslok">
         <property role="1XweGW" value="3b7e28c8-f62f-453d-b7f1-09e7ed1c7c75" />
         <property role="1XxBO9" value="BinaryGen.devkit" />
+      </node>
+    </node>
+    <node concept="1irR5M" id="1tf3Elb3_pk" role="1tIi3D">
+      <property role="2$rrk2" value="1" />
+      <node concept="1irPie" id="1tf3Elb3_v1" role="1irR9h">
+        <property role="1irPi9" value="?" />
+        <node concept="3PKj8D" id="1tf3Elb3_v6" role="3PKjny">
+          <property role="3PKj8l" value="000000" />
+        </node>
       </node>
     </node>
   </node>
@@ -793,6 +816,15 @@
               </node>
             </node>
           </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1irR5M" id="1tf3Elb8bzn" role="1tIi3D">
+      <property role="2$rrk2" value="2" />
+      <node concept="1irPie" id="1tf3Elb8bzq" role="1irR9h">
+        <property role="1irPi9" value="?" />
+        <node concept="3PKj8D" id="1tf3Elb8bzr" role="3PKjny">
+          <property role="3PKj8l" value="000000" />
         </node>
       </node>
     </node>
