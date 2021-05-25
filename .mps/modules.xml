@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MPSProject">
+    <projectModules>
+      <modulePath path="$PROJECT_DIR$/languages/Importers.defaultImporters/Importers.defaultImporters.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/Importers/Importers.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/Importers.plugin/Importers.plugin.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/Importers.runtime/Importers.runtime.msd" folder="" />
+    </projectModules>
+  </component>
+</project>
